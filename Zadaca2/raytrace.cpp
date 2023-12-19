@@ -117,6 +117,9 @@ Vec3f cast_ray(const Ray &ray, const Objects &objs, const Lights &lights, const 
                 
             */
 
+            Material shadow_hit_material;
+            Vec3f shadow_hit_normal;
+            Vec3f shadow_hit_point;
             
             Vec3f shadow_origin;
 
