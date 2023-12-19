@@ -4,7 +4,7 @@
 #include <cassert>
 #include <iostream>
 
-// main pattern with parameters dimension and type 
+// main template with parameters dimension and type 
 template <size_t DIM, typename T> struct vec // defining a vector
 {
     // constructor
